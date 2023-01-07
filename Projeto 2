@@ -1,0 +1,12 @@
+# include <iostream>
+
+using namespace std;
+
+int main() {
+	
+	int num = 450;
+	int num2 = 450;
+	cout << num + num2 << endl;
+	
+	return 0;
+}
