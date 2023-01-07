@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std ;
+
+int main () {
+	
+	int num1 = 50 ;
+	char n = 'a' ;
+	float num3 = 20.50 ;
+	
+	cout << "o valor da variavel num1 é " << num1 << endl ;
+	cout <<"o valor da variavel n é " << n << endl ;
+	cout <<"o valor da variavel num3 é "<< num3 << endl ;
+	
+	cout << endl;
+	
+	cout <<"memoria da variavel num1 " << sizeof(num1) << "bytes " << endl ;
+	cout <<"memoria da variavel n " << sizeof(n) << "bytes " << endl ;
+	cout << "memoria da variavel num3 " <<sizeof(num3) << "bytes "<< endl ;
+	
+	return 0;
+}
