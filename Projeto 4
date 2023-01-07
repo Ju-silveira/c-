@@ -1,0 +1,12 @@
+# include <iostream.h>
+# include <iomanip>
+
+using namespace std;
+
+int main () {
+	
+	cout << "manipolando emtrada de dados" << endl ;
+	cout << 10 + 30 << endl ;
+	cout << hex << 10 + 30 << endl ;
+	cout << setw (10) << 40 + 20 << endl ;
+}
