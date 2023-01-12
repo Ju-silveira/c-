@@ -1,0 +1,19 @@
+# include <iostream.h>
+
+using namespace std;
+
+int main() {
+	
+	int valor = 0;
+	
+	cout << "digite um numero em teiro " << endl ;
+	cin >> valor ;
+	
+	if (valor > 50){
+		cout << "o valor digitado é maior do que 50 " << endl ;
+	}
+	else { 
+		cout << "o valor digitado é menor que 50 " << endl ;
+	}
+}
+	
