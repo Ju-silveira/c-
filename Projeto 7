@@ -1,0 +1,19 @@
+# include <iostream.h>
+
+using namespace std ;
+
+int main () {
+	
+	int c = 3;
+	int c1 = 5;
+	
+	cout << " comsiderando que c tem o valor 3 e c1 tem o valor 5" << endl ;
+	cout << " e que 1 represemta verdadeiro e 0 falso" << endl ;
+	
+	cout << "c é igual a c1 " << (c == c1) << endl ;
+	cout << " c é diferemte de c1 " << (c != c1) << endl ;
+	cout << "c é maior que c1 " << (c > c1) << endl ;
+	cout << "c é menor que c1 " << (c < c1) << endl ; 
+	cout << "c é maior ou igual a c1 "<< (c >= c1) << endl ;
+	cout <<"c é menor ou igual a c1 "<< (c >= c1) <<endl ;
+}
