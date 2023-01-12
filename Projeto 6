@@ -1,0 +1,17 @@
+# include <iostream.h>
+
+using namespace std ;
+
+int main () {
+	
+	int c , b ;
+	c = 5 ;
+	b = 7 ;
+	
+	cout << "a soma emtre c e b é " << c + b << endl ;
+	cout << "a subitração emtrd c e b é " << c - b << endl ;
+	cout << "a multiplicação entre c e b é " << c * b << endl ;
+	cout << " a divisão emtre c e b é " << b / c << endl ;
+	
+	return 0 ;
+}
