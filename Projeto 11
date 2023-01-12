@@ -1,0 +1,19 @@
+# include <iostream.h>
+
+using namespace std ;
+
+int main () {
+	
+	cout << "digite um numero emtre 50 e 100 " << endl ;
+	int c = 0 ;
+	cin >> c ;
+	
+	if (c >= 50 && c <= 100){
+		cout<< "obrigado por digitar um numero no intervalo" << endl ;
+		if (c == 50 || c == 100){
+			cout << "onumro digitado e um extremo" << endl ;
+		}
+	}else{
+		cout << "onomero digitado esta fora do intervalo "<<endl ;
+	}
+}
